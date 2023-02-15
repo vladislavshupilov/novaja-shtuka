@@ -1,0 +1,20 @@
+@startuml
+participant Alice
+participant Bob
+note left of Alice #aqua
+Будет отображено
+слева от Алисы
+endnote
+
+note right of Alice: Будет отображено справа от Алисы
+
+not over Alice: Будет отображено над Алисой.
+
+note over Alice, Bob #FFAAAA: Будет отображено\n над Алисой и Бобом.
+
+note over Bob, Alice
+А это еще
+один пример
+длинной заметки.
+end note
+@enduml

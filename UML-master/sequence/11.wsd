@@ -1,0 +1,14 @@
+@startuml
+Alice->Bob : привет
+note left: это первая заметка
+
+Bob->Alice : ага
+note right: это другая заметка
+
+Bob->Bob : я размышляю над этим
+note left
+заметки
+могут занимать
+несколько строчек
+end note
+@enduml

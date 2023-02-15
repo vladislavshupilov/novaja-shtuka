@@ -1,0 +1,8 @@
+@startuml
+Alice -> Bob: Запрос авторизации
+alt#Gold #LightBlue Успешный кейс
+    Bob -> Alice: Запрос удовлетворен
+else #Pink Ошибка
+    Bob -> Alice: Запрос отклонен
+end
+@enduml

@@ -1,0 +1,21 @@
+@startuml
+
+skinparam class {
+    BackgroundColor LightGreen
+    ArrowColor      Blue
+    BorderColor     Red
+    BackgroundColor<<Foo>> Green
+    BorderColor<<Foo>> Orange
+}
+
+skinparam StereotypeCBackgroundColor Magenta
+skinparam StereotypeCBackgroundColor<<Foo>> Gray
+
+Class01 <<Foo>>
+Class03 <<Foo>>
+
+Class01 "к одному" *-- "от многих" Class02 : композиция
+
+Class03 o-- Class04 : агрегация
+
+@enduml

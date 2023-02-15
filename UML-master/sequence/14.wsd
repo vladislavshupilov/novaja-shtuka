@@ -1,0 +1,7 @@
+@startuml
+Bob -> Alice : привет
+activate Alice
+Alice -> Alice : какое-то действие
+return пока
+@enduml
+

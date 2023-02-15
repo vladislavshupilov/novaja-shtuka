@@ -1,0 +1,18 @@
+@startuml
+title Синтаксис квадратных скобочек с заметками
+class foo
+class bar
+bar1 : [bold]
+bar2 : [dashed]
+bar3 : [dotted]
+bar4 : [hidden]
+bar5 : [plain]
+
+foo --> bar             : по умолчанию
+foo -[bold]-> bar1      : [жирный]
+foo -[dashed]-> bar2    : [шриховый]
+foo -[dotted]-> bar3    : [пунктирный]
+foo -[hidden]-> bar4    : [скрытый]
+foo -[plain]-> bar5     : [непрерывный]
+
+@enduml

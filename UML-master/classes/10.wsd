@@ -1,0 +1,15 @@
+@startuml
+class Object << general >>
+Object <|-- ArrayList
+
+note top of Object : In java, every class\nextends this ome.
+
+note "Это не привязанная\nни к чему заметка" as N1
+note "Это заметка привязана\nсразу к нескольким классам" as N2
+Object .. N2
+N2 .. ArrayList
+
+class Foo
+note left: Эта заметка будет\nпривязана к послежнему\nопределенному классу
+
+@enduml

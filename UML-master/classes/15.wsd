@@ -1,0 +1,27 @@
+@startuml
+scale 750 width
+package foo1 <<Node>> {
+    class Class1
+}
+
+package foo2 <<Rectangle>> {
+    class Class1
+}
+
+package foo3 <<Folder>> {
+    class Class1
+}
+
+package foo4 <<Frame>> {
+    class Class1
+}
+
+package foo5 <<Cloud>> {
+    class Class1
+}
+
+package foo6 <<Database>> {
+    class Class1
+}
+
+@enduml

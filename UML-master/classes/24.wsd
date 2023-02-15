@@ -1,0 +1,14 @@
+@startuml
+title Задание цвета при помощи синтаксиса квадратных скобочек
+class foo
+class bar
+bar1 : [#red]
+bar2 : [#green]
+bar3 : [#blue]
+
+
+foo --> bar             : по умолчанию
+foo -[#red]-> bar1      : [красный]
+foo -[#green]-> bar2    : [зеленый]
+foo -[#blue]-> bar3     : [синий]
+@enduml

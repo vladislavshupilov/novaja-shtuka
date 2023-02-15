@@ -1,0 +1,11 @@
+@startuml
+class A {
+{static} int counter
++void {abstract} start(int timeout)
+}
+note right of A::counter
+    Это поле данных прокомментировано
+end note
+note right of A::start
+    Этот метод теперь объясняется в UML заметке
+end note

@@ -1,0 +1,14 @@
+@startuml
+
+class Dummy
+Dummy --> Foo : Одна связь
+note on link #red: Помни, оно - красное!
+
+Dummy --> Foo2 : Другая связь
+note right on link #lightblue
+Это моя заметка, чтобы
+не забыть, где правильная связь.
+И еще, она - почти синяя
+end note
+
+@enduml

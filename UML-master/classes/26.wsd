@@ -1,0 +1,7 @@
+@startuml
+class foo
+foo --> bar : обычная
+foo --> bar1 #line:red;line.bold;text:red   : красная, жирный
+foo --> bar2 #green;line.dashed;text:green  : зеленая, штриховой
+foo --> bar3 #blue;line.dotted;text:blue    : синяя, пунктирный
+@enduml

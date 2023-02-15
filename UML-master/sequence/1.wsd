@@ -1,0 +1,7 @@
+@startuml
+Client -> Server: Authentification Request
+Server --> Client: Authentification Response
+
+Client -> Server: Another authentification Request
+Server --> Client: Another authentification Response
+@enduml
